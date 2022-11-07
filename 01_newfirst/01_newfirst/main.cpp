@@ -9,5 +9,5 @@ int main(int argc, char *argv[])
     myWidget w;//窗口对象，它的父类是QWidget
     w.show();//调用show方法
 
-    return a.exec();//让应用程序对象进入消息循环机制,让带吗阻塞在这里
+    return a.exec();//让应用程序对象进入消息循环机制,让代码阻塞在这里
 }
